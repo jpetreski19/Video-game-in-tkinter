@@ -1,0 +1,34 @@
+Author: Jovan Petreski
+Date finished: 12/12/2019
+Product type: Tkinter game
+A short description of the game: you are playing as a shark
+in a very polluted ocean (with lots of cans and plastic bags)
+Your task is to survive as long as possible (that is without
+eating any of the unwanted objects) and possibli eat as many
+fish as possible (so that your score increases). At the
+beginning, you are displayed 4 menus: start new game, load
+last saved game, leaderboard and quit. You can also save your
+current game but be aware that this deletes the previous saved
+game. If you are in the top 5 players, your name will be
+displayed in the leaderboard. There are 3 cheat codes: nodeath
+(you can lose the game), double (the score for each fish eaten
+is now twice than normally) and noobject (only fish will be
+created for you and the ocean suddenly becomes very clear :).
+You can pause and unpause the game only when in gameplay mode and
+you have a boss key at your disposal all the time.
+
+A hit is detected only if it is the mouth area of the shark (since
+sharks are not that flexible).
+Also, the game is little bit laggy when I tested last time on a lab machine
+but it runs smoothly on my personal laptop. This may be due to the number of objects
+created and the resolution of the images.
+
+Enter (return) - boss key is displayed
+nodeath (typed with no spaces) - first cheat code so that the player cannot loose the game
+double - for each eaten fish you get double the score for it (20 instead of 10)
+noobject - unwanted objects stop to appear and the chance of fish being displayed is increased
+arrows - to control the main object
+exit (typed with no spaces) - to terminate the game
+Escape - to pause and unpause the game
+
+Note: All the images used were created during the development process and are not copyrighted by anyone
